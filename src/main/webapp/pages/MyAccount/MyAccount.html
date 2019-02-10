@@ -20,9 +20,8 @@
                 <wm-filter-action key="filter" class="btn-primary" iconclass="wi wi-filter-list" action="filter()" display-name="Filter" show="true" type="button"></wm-filter-action>
                 <wm-filter-action key="clear" class="btn-secondary" iconclass="wi wi-cancel" action="clearFilter()" display-name="Clear" show="true" type="button"></wm-filter-action>
             </wm-livefilter>
-            <wm-table editmode="inline" name="AccountTable1" title="My Account List" dataset="bind:Variables.DeodongskokvdkAccountData.dataSet" navigation="Classic" spacing="condensed" radioselect="false" filtermode="search" multiselect="true" showrecordcount="true"
-                exportformat="EXCEL,CSV">
-                <wm-table-column binding="name" caption="Account Name" edit-widget-type="text" type="string" generator="assigned" show="true" readonly="false"></wm-table-column>
+            <wm-table editmode="inline" name="AccountTable1" title="My Account" dataset="bind:Variables.DeodongskokvdkAccountData1.dataSet" navigation="Classic" filtermode="search" showrecordcount="true">
+                <wm-table-column binding="name" caption="Name" edit-widget-type="text" type="string" generator="assigned" show="true" readonly="false"></wm-table-column>
                 <wm-table-column binding="phone" caption="Phone" edit-widget-type="text" type="string" generator="assigned" show="true" readonly="false"></wm-table-column>
                 <wm-table-column binding="website" caption="Website" edit-widget-type="text" type="string" generator="assigned" show="true" readonly="false"></wm-table-column>
                 <wm-table-column binding="rowOperations" caption="Actions" width="120px" type="custom" readonly="true" sortable="false" searchable="false" show="true"></wm-table-column>

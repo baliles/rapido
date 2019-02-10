@@ -4,9 +4,8 @@
     <wm-content name="content">
         <wm-left-panel columnwidth="2" name="leftpanel" content="leftnav"></wm-left-panel>
         <wm-page-content columnwidth="10" name="mainContent" padding="unset 15px">
-            <wm-table editmode="inline" name="GroceryBrandCTable1" title="My Brands" dataset="bind:Variables.GroceryBrandCData.dataSet" navigation="Classic" radioselect="false" filtermode="search" multiselect="true" enablecolumnselection="true" showrecordcount="true"
-                exportformat="EXCEL,CSV">
-                <wm-table-column binding="name" caption="Name" edit-widget-type="text" type="string" generator="assigned" show="true" readonly="false"></wm-table-column>
+            <wm-table editmode="inline" name="GroceryBrandCTable1" title="My Brands" dataset="bind:Variables.DeodongskokvdkGroceryBrandCData.dataSet" navigation="Classic" filtermode="search">
+                <wm-table-column binding="name" caption="Brand Name" edit-widget-type="text" type="string" generator="assigned" show="true" readonly="false"></wm-table-column>
                 <wm-table-column binding="brandWebSiteC" caption="Brand Web Site" edit-widget-type="text" type="string" generator="assigned" show="true" readonly="false"></wm-table-column>
                 <wm-table-column binding="rowOperations" caption="Actions" width="120px" type="custom" readonly="true" sortable="false" searchable="false" show="true"></wm-table-column>
                 <wm-table-action key="addNewRow" display-name="New" show="true" class="btn-primary" iconclass="wi wi-plus" title="New" action="addNewRow()" shortcutkey="" disabled="false" widget-type="button"></wm-table-action>

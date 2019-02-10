@@ -43,8 +43,6 @@ Application.$controller("AccountFilter2_1Controller", ["$scope",
 	}
 ]);
 
-
-
 Application.$controller("AccountTable1Controller", ["$scope",
 	function($scope) {
 		"use strict";

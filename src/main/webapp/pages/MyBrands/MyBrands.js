@@ -16,8 +16,6 @@ Application.$controller("MyBrandsPageController", ["$scope", function ($scope) {
 
 }]);
 
-
-
 Application.$controller("GroceryBrandCTable1Controller", ["$scope",
 	function($scope) {
 		"use strict";
