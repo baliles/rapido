@@ -1,0 +1,17 @@
+<wm-partial data-ng-controller="leftnavPageController" name="leftnav" type="leftnav">
+    <wm-nav name="leftnavigation" type="pills" layout="stacked">
+
+        <wm-nav-item name="list_order">
+            <wm-anchor caption="My Account" name="orderLink" iconclass="wi wi-store" on-click="Actions.goToPage_MyAccount.invoke()"></wm-anchor>
+        </wm-nav-item>
+        <wm-nav-item name="list_inventory">
+            <wm-anchor caption="My Brands" name="inventoryLink" iconclass="wi wi-account-box" on-click="Actions.goToPage_MyBrands.invoke()"></wm-anchor>
+        </wm-nav-item>
+        <wm-nav-item name="list_support">
+            <wm-anchor caption="My Items" name="supportLink" iconclass="wi wi-format-list-bulleted" on-click="Actions.goToPage_MyItems.invoke()"></wm-anchor>
+        </wm-nav-item>
+        <wm-nav-item name="list_about">
+            <wm-anchor caption="About Us" name="supportLink" iconclass="wi wi-map" on-click="Actions.goToPage_AboutUs.invoke()"></wm-anchor>
+        </wm-nav-item>
+    </wm-nav>
+</wm-partial>

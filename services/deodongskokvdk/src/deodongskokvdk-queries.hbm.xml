@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <sql-query name="Brands">
+        <![CDATA[
+        select "name" as "Item Name", upc__c as "UPC", brand__c as "Brand Name" from salesforce.grocery_item__c
+        ]]>
+    </sql-query>
+
+    <sql-query name="Brands__count">
+        <![CDATA[
+        select count(*) from (select "name" as "Item Name", upc__c as "UPC", brand__c as "Brand Name" from salesforce.grocery_item__c) wmTempTable
+        ]]>
+    </sql-query>
+
+    <sql-query name="RapidoAccount">
+        <![CDATA[
+        SELECT * FROM salesforce.account where name like '%Rapido%'
+        ]]>
+    </sql-query>
+
+    <sql-query name="RapidoAccount__count">
+        <![CDATA[
+        select count(*) from (SELECT * FROM salesforce.account where name like '%Rapido%') wmTempTable
+        ]]>
+    </sql-query>
+
+    <sql-query name="Rapido">
+        <![CDATA[
+        select * from salesforce.account where sfid = '0011U00000ArwjJQAR'
+        ]]>
+    </sql-query>
+
+    <sql-query name="Rapido__count">
+        <![CDATA[
+        select count(*) from (select * from salesforce.account where sfid = '0011U00000ArwjJQAR') wmTempTable
+        ]]>
+    </sql-query>
+</hibernate-mapping>
