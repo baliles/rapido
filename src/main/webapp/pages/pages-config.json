@@ -1,0 +1,73 @@
+[ {
+  "name" : "AboutUs",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "Common",
+  "type" : "PARTIAL",
+  "params" : [ ]
+}, {
+  "name" : "HerokuApp",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "HerokuConnect",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "HerokuDashboard",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "HerokuDataclips",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "Login",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "Main",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "MyAccount",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "MyBrands",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "MyDashboard",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "MyItems",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "MySlides",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "footer",
+  "type" : "FOOTER",
+  "params" : [ ]
+}, {
+  "name" : "header",
+  "type" : "HEADER",
+  "params" : [ ]
+}, {
+  "name" : "leftnav",
+  "type" : "LEFTNAV",
+  "params" : [ ]
+}, {
+  "name" : "rightnav",
+  "type" : "RIGHTNAV",
+  "params" : [ ]
+}, {
+  "name" : "topnav",
+  "type" : "TOPNAV",
+  "params" : [ ]
+} ]
