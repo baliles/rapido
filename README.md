@@ -1,4 +1,4 @@
-#Information about Project Folder Structure and Files  EDITED 2
+#Information about Project Folder Structure and Files  EDITED 3
 
 ##pom.xml
   Add any maven dependencies to this file. Dependencies declared in this file will be available on the classpath.
