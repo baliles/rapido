@@ -1,4 +1,4 @@
-Rapido Demo EDITED 4
+Rapido Demo EDITED
 
 #Information about Project Folder Structure and Files
 
